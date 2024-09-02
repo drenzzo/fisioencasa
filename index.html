@@ -34,11 +34,14 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <!-- Spinner Start -->
-    <div
+    <!-- <div
       id="spinner"
       class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
     >
@@ -49,7 +52,7 @@
       >
         <span class="sr-only">Cargando...</span>
       </div>
-    </div>
+    </div> -->
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
@@ -123,7 +126,7 @@
       <!-- Carousel Start -->
       <div class="header-carousel owl-carousel">
         <div class="header-carousel-item">
-          <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image" />
+          <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image" />
           <div class="carousel-caption">
             <div class="carousel-caption-content p-3">
               <h5
@@ -889,16 +892,21 @@
     </div>
     <!-- Copyright End -->
 
-    <!-- Whatsapp button -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <a href="https://api.whatsapp.com/send?phone=573108390425&text=Hola%21%20Quisiera%20m%C3%A1s%20Reservar%20Una%20Cita." class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
-      ><i class="fa fa-arrow-up"></i
-    ></a>
+    <div id="float-buttons">
+      <!-- Back to Top -->
+       <div id="float-btn-back">
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top">
+          <i class="fa fa-arrow-up"></i>
+        </a>
+       </div>
+      
+      <!-- Whatsapp button -->
+      <div id="float-btn-wsp">
+        <a href="https://api.whatsapp.com/send?phone=573108390425&text=Hola%21%20Quisiera%20m%C3%A1s%20Reservar%20Una%20Cita." class="float" target="_blank">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
